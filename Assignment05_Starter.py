@@ -13,7 +13,7 @@
 # declare variables and constants
 FileName = 'ToDoList.txt'  # Text file name
 objFile = ''  # An object that represents a file
-RemoveTask = ''  # A row of text data from the file
+RemoveTask = ''  # Variable that will represent a task the user wants to remove
 dicRow = {}  # A row of data separated into elements of a dictionary {Task,Priority}
 lstTable = []  # A list that acts as a 'table' of rows
 strMenu = """ 
